@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
                 {/* Identity */}
                 <a
-                    href="www.linkedin.com/in/sruthilaya-sundaram-306"
+                    href="https://www.linkedin.com/in/sruthilaya-sundaram-306"
                     className="text-sm font-semibold tracking-wide text-white hover:text-emerald-400 transition-colors"
                 >
                     Sruthilaya U.S

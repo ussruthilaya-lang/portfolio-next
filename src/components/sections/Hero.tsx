@@ -15,7 +15,7 @@ export default function Hero() {
                 >
                     <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse" />
                     <span className="text-xs text-white/40 tracking-wider uppercase">
-                        Currently open to impact-driven roles
+                        OPEN TO PRODUCT-DRIVEN AI & DATA ROLES
                     </span>
                 </motion.div>
 
@@ -40,8 +40,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.5 }}
                     className="text-lg md:text-xl text-white/60 mb-6 max-w-2xl leading-relaxed"
                 >
-                    I build AI systems that understand context, scale
-                    under pressure, and ship with intent.
+                    I build production-ready AI systems — from data and models to deployment.
                 </motion.p>
 
                 {/* CTA */}
