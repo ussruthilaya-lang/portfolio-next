@@ -1,5 +1,4 @@
 import "./globals.css";
-import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
 import NeuralNetwork from "@/components/visuals/NeuralNetwork";
 import Providers from "@/app/providers";
@@ -92,6 +91,12 @@ export default function RootLayout({
             Built with intent. Optimized for impact.
           </p>
         </footer>
+
+        {/* Vercel Speed Insights */}
+        <SpeedInsights />
+
+        {/* Vercel Web Analytics */}
+        <Analytics />
       </body>
     </html>
   );
